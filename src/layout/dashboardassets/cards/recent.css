@@ -1,0 +1,79 @@
+.recent-container{
+    width: 352px;
+    margin: 20px 0px 0px 20px;
+}
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.title-recent{
+    font-size: 22px;
+    color: #CCCCCC;
+}
+.view-all{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    gap: 5px;
+    color: #CCCCCC;
+    cursor: pointer;
+}
+.view-all:hover{
+    color: #474747;
+}
+.recent-content-container{
+    background-color: #fff;
+    height: 542px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 25px #b9b9b9;
+}
+.recent-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #525256;
+}
+
+.menu-menu {
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.3s; 
+}
+
+.menu-menu.active {
+    color: #299D91;
+}
+
+.menu-menu::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    transform: translateX(-50%);
+    background-color: transparent; /* Mengatur latar belakang transparan */
+    transition: width 0.3s ease, background-color 0.3s ease; /* Animasi lebar dan latar belakang */
+}
+
+.menu-menu.active::after {
+    width: 100%;
+    background-color: #299D91; /* Mengubah latar belakang saat tombol aktif */
+}
+.transaction{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.parent-container-transaction{
+    height: 440px;
+    overflow: scroll;
+}
+.parent-container-transaction::-webkit-scrollbar {
+    display: none; /* Menghilangkan scrollbar pada browser WebKit */
+}

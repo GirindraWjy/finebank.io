@@ -1,0 +1,16 @@
+.statistics-container{
+    width: 722px;
+    height: 258px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px #b9b9b9;
+    padding: 15px;
+}
+.statistics-title{
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #CCCCCC;
+}
+.parent-statistics-container{
+    margin-top: 20px;
+}

@@ -1,0 +1,28 @@
+.container {
+    background-color: #F3F3F3;
+    display: flex;
+}
+
+.sidebar {
+    width: 17%;
+    position: fixed;
+    z-index: 1;
+    height: 100vh; /* Ensure the sidebar spans the full height */
+}
+
+.content {
+    margin-left: 17%; /* Match this value to the width of the sidebar */
+    width: 83%;
+    display: block;
+    margin-bottom: 30px;
+}
+.data_data{
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+}
+.data_data2{
+    display: flex;
+    gap: 27px;
+    flex-direction: column;
+}
