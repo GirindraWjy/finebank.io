@@ -58,10 +58,10 @@ function Sidebar(props: any) {
                         <img src={transaction} class="img-menu" />
                         <p class="menu-desc">Transactions</p>
                     </div></a>
-                    <div class="menucontainer">
+                    <a href="/bills"><div class="menucontainer">
                         <img src={bill} class="img-menu" />
                         <p class="menu-desc">Bills</p>
-                    </div>
+                    </div></a>
                     <div class="menucontainer">
                         <img src={expences} class="img-menu" />
                         <p class="menu-desc">Expences</p>

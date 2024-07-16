@@ -122,7 +122,7 @@ function Card1() {
                 <div class="bill-container">
                     <p class="upcoming-bill">Upcoming Bill</p>
                     <div class="view-container">
-                        <p class="view-all">View All</p>
+                        <a href="/bills"><p class="view-all">View All</p></a>
                         <FaSolidChevronRight />
                     </div>
                 </div>
